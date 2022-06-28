@@ -24,7 +24,7 @@ jobs:
         run: yarn
 
       - name: Create Release Pull Request
-        uses: dotansimha/changesets-action@test-release
+        uses: dotansimha/changesets-action@8e26012c0d20c797c4562f63f8a1be7a8442b690
         with:
           publish: yarn release
           createGithubReleases: aggregate
