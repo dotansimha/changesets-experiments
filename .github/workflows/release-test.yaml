@@ -24,6 +24,6 @@ jobs:
         run: yarn
 
       - name: Create Release Pull Request
-        uses: dotansimha/changesets-action@aggregate-release-mode
+        uses: dotansimha/changesets-action@test-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
