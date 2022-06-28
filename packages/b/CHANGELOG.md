@@ -1,5 +1,11 @@
 # experimens-changesets-b
 
+## 0.0.3
+
+### Patch Changes
+
+- 13503ac: Test 3
+
 ## 0.0.2
 
 ### Patch Changes
