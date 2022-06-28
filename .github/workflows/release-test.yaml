@@ -27,7 +27,7 @@ jobs:
         uses: dotansimha/changesets-action@test-release
         with:
           publish: yarn release
-          # createGithubReleases: aggregate
+          createGithubReleases: aggregate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
