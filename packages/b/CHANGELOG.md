@@ -1,5 +1,11 @@
 # experimens-changesets-b
 
+## 0.0.4
+
+### Patch Changes
+
+- 458ebec: Test b
+
 ## 0.0.3
 
 ### Patch Changes
